@@ -1,0 +1,288 @@
+/**
+* FONTS FAMILIES
+*/
+h1, h2, h3 {
+    font-family: $font_family_1;
+}
+.font-family-1 {
+    font-family: $font_family_1;
+}
+.font-family-2 {
+    font-family: $font_family_2;
+}
+
+/**
+* LINKS
+*/
+.link-author {
+    text-transform: uppercase;
+    font-size: $font_size_xxxxsmall;
+    letter-spacing: $font_size_xxxxsmall;
+    color: $color_soft_white;
+    text-decoration: none;
+}
+
+/**
+* HEADER
+*/
+header {
+    .overlay {
+        opacity: 0.1;
+        border: 10px solid $color_full_white;
+    }
+    .container {
+        .col {
+            &.first {
+                border: 10px solid $color_full_white;
+                @include border-radius(4px);
+            }
+            h1 {
+                font-size: $font_size_xxxxlarge;
+                color: $color_soft_black;
+                line-height: $font_size_xxxsmall;
+            }
+            .project-description {
+                font-size: $font_size_base;
+                color: $color_soft_black;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                cursor: pointer;
+                opacity: 0.5;
+                @include transition(opacity 0.3s);
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+        @include screen-xs {
+            .col {
+                h1 {
+                    font-size: $font_size_xxxlarge;
+                }
+                .project-description {
+                    font-size: $font_size_small;
+                }
+            }
+        }
+    }
+}
+
+
+/**
+* GRIDDER
+*/
+.gridder {
+    .section-title {
+        background-color: $color_full_white;
+        &>h2 {
+            font-size: $font_size_xlarge;
+            color: $color_medium_grey;
+            @include transition(color 0.3s);
+            span {
+                //Thumbnail
+                &.thumbnail {
+                    img {
+                        @include border-radius(4px);
+                    }
+                }
+                //Toggle group description button
+                &.toggle {
+                    opacity: 0.5;
+                    @include border-radius(100px);
+                    background-image: url('../img/ic_expand_more_white_24px.svg');
+                    background-color: $color_soft_white;
+                    cursor: pointer;
+                    &:hover {
+                        opacity: 1;
+                        @include transform(rotate(360deg));
+                    }
+                }
+            }
+        }
+        &.opened {
+            &>h2 {
+                span {
+                    &.toggle {
+                        opacity: 1;
+                        @include transform(rotate(180deg));
+                    }
+                }
+            }
+        }
+        .group-description {
+            font-size: $font_size_small;
+            line-height: $font_size_small;
+            color: $color_soft_black;
+            h1 {
+                font-size: $font_size_large;
+                color: $color_soft_black;
+            }
+            h3 {
+                font-size: $font_size_base;
+                color: $color_soft_black;
+            }
+            a, a:focus, a:visited {
+                @include box-shadow(inset 0 -0.6em 0 $color_primary_2);
+                text-decoration: none;
+                color: $color_primary_1;
+                @include transition(box-shadow 0.3s);
+            }
+            a:hover {
+                @include box-shadow(inset 0 -1.2em 0 $color_primary_2);
+            }
+        }
+        &.opened {
+            &>h2 {
+                color: $color_soft_black;
+            }
+        }
+        @include screen-sm {
+            .group-description {
+                font-size: $font_size_xsmall;
+                line-height: $font_size_xsmall;
+            }
+        }
+        @include screen-xs {
+            h2 {
+                font-size: $font_size_xxsmall;
+            }
+            .group-description {
+                font-size: $font_size_xxxsmall;
+                line-height: $font_size_xxsmall;
+            }
+        }
+    }
+    .gridder-list {
+        border-right: 10px solid $color_full_white;
+        border-bottom: 10px solid $color_full_white;
+        &.selectedItem {
+            //Selected item icon
+            &:after {
+                background-color: $color_full_white;
+            }
+        }
+    }
+    .gridder-show {
+        .vr-properties {
+            .container {
+                .col {
+                    h3 {
+                        color: $color_soft_black;
+                    }
+                    span.thumbnail {
+                        @include border-radius(4px);
+                    }
+                    @include screen-lg {
+                        h3 {
+                            font-size: $font_size_xxxlarge;
+                        }
+                    }
+                    @include screen-md {
+                        h3 {
+                            font-size: $font_size_xxlarge;
+                        }
+                    }
+                    @include screen-sm {
+                        h3 {
+                            font-size: $font_size_xlarge;
+                        }
+                    }
+                    @include screen-xs {
+                        h3 {
+                            font-size: $font_size_xlarge;
+                        }
+                    }
+                    span.thumbnail {
+                        border: solid 10px $color_full_white;
+                    }
+                    .scene-description {
+                        font-size: $font_size_base;
+                        line-height: $font_size_base;
+                        color: $color_soft_black;
+                        h1 {
+                            font-size: $font_size_xlarge;
+                        }
+                        h3 {
+                            font-size: $font_size_base;
+                        }
+                        a, a:focus, a:visited {
+                            @include box-shadow(inset 0 -0.6em 0 $color_primary_2);
+                            text-decoration: none;
+                            color: $color_primary_1;
+                            @include transition(box-shadow 0.3s);
+                        }
+                        a:hover {
+                            @include box-shadow(inset 0 -1.2em 0 $color_primary_2);
+                        }
+                    }
+                    @include screen-sm {
+                        .scene-description {
+                            font-size: $font_size_small;
+                            line-height: $font_size_small;
+                        }
+                    }
+                    @include screen-xs {
+                        .scene-description {
+                            font-size: $font_size_xsmall;
+                            line-height: $font_size_xsmall;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+/**
+* FOOTER
+*/
+footer {
+    // text-align: center;
+    .title {
+        font-size: $font_size_xxxlarge;
+        color: $color_soft_white;
+    }
+    .project-description {
+        font-size: $font_size_base;
+        line-height: $font_size_base;
+        color: $color_soft_black;
+        h1 {
+            font-size: $font_size_xlarge;
+            line-height: $font_size_xxxsmall;
+        }
+        h3 {
+            font-size: $font_size_base;
+            line-height: $font_size_xxxsmall;
+        }
+        a, a:focus, a:visited {
+            @include box-shadow(inset 0 -0.6em 0 $color_primary_2);
+            text-decoration: none;
+            color: $color_primary_1;
+            @include transition(box-shadow 0.3s);
+        }
+        a:hover {
+            @include box-shadow(inset 0 -1.2em 0 $color_primary_2);
+        }
+    }
+    @include screen-sm {
+        .project-description {
+            font-size: $font_size_small;
+            line-height: $font_size_small;
+        }
+    }
+    @include screen-xs {
+        .project-description {
+            font-size: $font_size_xsmall;
+            line-height: $font_size_xsmall;
+        }
+        .about {
+            font-size:$font_size_xxlarge;
+        }
+    }
+
+}

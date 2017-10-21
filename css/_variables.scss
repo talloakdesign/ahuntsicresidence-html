@@ -1,0 +1,44 @@
+@import '_functions';
+@import '_mixins';
+
+
+
+//Font sizes
+$font_size_xxxxxsmall:       			0.6em;
+$font_size_xxxxsmall:       			0.8em;
+$font_size_xxxsmall:        			1.0em;
+$font_size_xxsmall:         			1.2em;
+$font_size_xsmall:          			1.3em;
+$font_size_small:           			1.4em;
+$font_size_base:            			1.6em;
+$font_size_large:           			1.8em;
+$font_size_xlarge:          			2.0em;
+$font_size_xxlarge:         			2.5em;
+$font_size_xxxlarge:        			3.0em;
+$font_size_xxxxlarge:       			3.5em;
+
+//Main colors
+$color_primary_1:                       #2F4652;
+$color_primary_2:                       #CDEEFF;
+
+//Custom colors
+$color_full_white:           			#FFFFFF;
+$color_white:           	     		#EEEEEE;
+$color_soft_white:       	     		#BBBBBB;
+$color_medium_grey:         			#999999;
+$color_soft_black:         			    #333333;
+$color_black:              			    #111111;
+$color_full_black:         			    #000000;
+
+//Social colors
+$color_facebook:            			#4E71A8;
+$color_twitter:             			#1CB7EB;
+$color_google_plus:         			#E1584B;
+
+//Break points
+$screen-xs-max:             			768px;
+$screen-sm-min:             			768px;
+$screen-sm-max:             			992px;
+$screen-md-min:             			992px;
+$screen-md-max:             			1200px;
+$screen-lg-min:             			1200px;

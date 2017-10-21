@@ -5,27 +5,22 @@
 <!--         Messages         -->
 <!-- ************************ -->
 
-  <data name="en_project_title"><![CDATA[Residence Ahuntsic]]></data>
+  <data name="en_project_title"><![CDATA[Résidence étudiante du Ahuntsic]]></data>
   <data name="en_project_author_name"><![CDATA[in360]]></data>
   <data name="en_project_author_url"><![CDATA[http://in360.ca]]></data>
 
 
+  <data name="en_panogroup105929_title"><![CDATA[Extérieur]]></data>
 
   <data name="en_pano105928_title"><![CDATA[Rue Saint-Hubert]]></data>
   <data name="en_spotpoint105944_tooltip"><![CDATA[Parc-du-boise-de-saint-sulpice]]></data>
-
-
   <data name="en_pano105932_title"><![CDATA[Parc-du-boise-de-saint-sulpice]]></data>
   <data name="en_spotpoint105945_tooltip"><![CDATA[Rue Saint-Hubert]]></data>
   <data name="en_spotpoint105946_tooltip"><![CDATA[Côté ouest du parc]]></data>
   <data name="en_spotpoint105947_tooltip"><![CDATA[Entrée principale]]></data>
-
-
   <data name="en_pano105935_title"><![CDATA[Côté ouest du parc]]></data>
   <data name="en_spotpoint105948_tooltip"><![CDATA[Parc-du-boise-de-saint-sulpice]]></data>
   <data name="en_spotpoint105949_tooltip"><![CDATA[Entrée principale]]></data>
-
-
   <data name="en_pano105937_title"><![CDATA[Entrée principale]]></data>
   <data name="en_spotpoint105950_tooltip"><![CDATA[Côté ouest du parc]]></data>
   <data name="en_spotpoint105951_tooltip"><![CDATA[Parc-du-boise-de-saint-sulpice]]></data>
@@ -36,14 +31,20 @@
   <data name="en_spotpoint105953_tooltip"><![CDATA[Entrée principale]]></data>
 
 
-	<data name="en_spotmap105931_tooltip"><![CDATA[]]></data>
-	<data name="en_spotmap105934_tooltip"><![CDATA[]]></data>
-	<data name="en_spotmap105939_tooltip"><![CDATA[]]></data>
-	<data name="en_spotmap105942_tooltip"><![CDATA[]]></data>
-	<data name="en_spotmap105943_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap105979_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap105980_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap105981_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap105982_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap105983_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap105985_tooltip"><![CDATA[]]></data>
 
 
 
+	<data name="en_panogroup105929_floor_title"><![CDATA[Extérieur]]></data>
+	<data name="en_spotmap105986_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap105987_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap105988_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap105989_tooltip"><![CDATA[]]></data>
 
   <data name="en_logowebsiteurl"><![CDATA[http://in360.ca]]></data>
   <data name="en_contextmenuopenwebsitelabel1"><![CDATA[Tall Oak Design]]></data>
@@ -54,6 +55,7 @@
   <data name="en_socialButtonsocial_href"><![CDATA[]]></data>
   <data name="en_socialButtonfb_appid"><![CDATA[]]></data>
   <data name="en_socialButtonfb_ref"><![CDATA[]]></data>
+  <data name="en_floorPlanmenu_label"><![CDATA[Select a floor plan]]></data>
 
 
   <data name="en_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>
@@ -88,12 +90,7 @@
   <data name="en_vr_setup_unavailable"><![CDATA[VR mode[br]is unavailable on your device]]></data>
 
 
-
-
-
-
-
-
+  <data name="en_project_description"><![CDATA[<h2><span style="line-height: 1.538em; font-weight: normal;"><font face="arial, sans-serif" size="2">Un milieu d'études, un milieu de vie !</font></span></h2>]]></data>
 
 
 

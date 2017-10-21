@@ -1,0 +1,425 @@
+
+
+#tourDIV {
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    z-index: -10;
+    opacity: 0;
+    display: none;
+    &.opened {
+        opacity: 1;
+        z-index: 10;
+        display: block;
+    }
+}
+
+/**
+* HEADER
+*/
+header {
+    padding-top: 100px;
+    position: relative;
+    margin-bottom: 3em;
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        z-index: -10;
+        top: 0px;
+        left: 0px;
+        background-size: cover;
+        background-position: center;
+    }
+    .container {
+        margin: auto;
+        max-width: $screen-lg-min;
+        .col {
+            float: left;
+            h1 {
+                margin-top: 0;
+            }
+            &.first {
+                height: 200px;
+                width: 200px;
+                margin-right: 1.5em;
+                position: relative;
+                z-index: 10;
+                overflow: hidden;
+            }
+            &.second {
+                max-width: 70%;
+                margin-top: 105px;
+            }
+            .project-description {
+                height: $font_size_base;
+            }
+        }
+        @include screen-sm {
+            .col {
+                float: none;
+                &.first {
+                    margin: auto;
+                }
+                &.second {
+                    max-width: 80%;
+                    margin-top: 0px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+                }
+            }
+        }
+        @include screen-xs {
+            .col {
+                float: none;
+                &.first {
+                    margin: auto;
+                }
+                &.second {
+                    max-width: 80%;
+                    margin-top: 0px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    @include screen-md {
+        .container {
+            max-width: 90%;
+        }
+    }
+}
+
+
+/**
+* GRIDDER
+*/
+nav {
+    max-width: $screen-lg-min;
+    margin: auto;
+}
+.gridder {
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+    list-style-type: none;
+    //Font size 0px to make the grid element spacing 0px;
+    font-size: 0;
+    .gridder-list, .gridder-show, .section-title{
+        //Important for grid layout, no style/skin involved
+        font-size: 16px;
+    }
+    //If first li is a section title, disable margin top
+    &>li:first-child {
+        margin-top: 0;
+    }
+    .gridder-list {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        overflow: hidden;
+        height: 170px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        &.selectedItem {
+            &:after {
+                content:'';
+                width: 2em;
+                height: 2em;
+                position: absolute;
+                bottom:-1em;
+                left:50%;
+                margin-left:-1em;
+                @include transform(rotate(45deg));
+            }
+        }
+    }
+    .separator {
+        display: inline-block;
+        width:100%;
+        height: 5rem;
+    }
+    .separator+.section-title {
+        margin-top: 0;
+    }
+    .section-title {
+        display: inline-block;
+        width: 100%;
+        overflow: hidden;
+        height: 4em;
+        margin-top: 5em;
+        @include transition(height 0.3s);
+        &>h2 {
+            margin: 0;
+            position: relative;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            padding-right: 2em;
+            span {
+                display: inline-block;
+                vertical-align: middle;
+                //Thumbnail
+                &.thumbnail {
+                    margin-right: 0.5em;
+                    img {
+                        width: 1.5em;
+                        height: 1.5em;
+                    }
+                }
+                //Toggle group description button
+                &.toggle {
+                    width: 1.0em;
+                    height: 1.0em;
+                    @include transition(opacity 0.3s, transform 0.3s);
+                    background-size: contain;
+                    background-position: center;
+                    position: absolute;
+                    right: 10px;
+                    top: 7px;
+                }
+            }
+        }
+        //Group description
+        .group-description {
+            z-index: -10;
+            opacity: 0;
+            position: relative;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            max-width: 80%;
+            @include transition(opacity 0.3s);
+            &.opened {
+                opacity: 1;
+            }
+            &.layered-visible {
+                z-index: 1;
+            }
+        }
+    }
+    @include screen-xs {
+        .section-title  {
+            height: 3em;
+        }
+        .gridder-list {
+            width: 50%;
+        }
+    }
+    @include screen-sm {
+        .gridder-list {
+            width: 33.33%;
+        }
+    }
+    @include screen-md {
+        .gridder-list {
+            width: 33.33%;
+        }
+    }
+    @include screen-lg {
+        .gridder-list {
+            width: 25%;
+        }
+    }
+    // .gridder-list:nth-child(n) {
+    //     margin-bottom: 1%;
+    //     margin-right: 1%
+    // }
+    // .gridder-list:nth-of-type(6n) {
+    //     margin-right: 0;
+    //     margin-bottom: 0
+    // }
+
+    //GRIDDER OPENED
+    .gridder-show {
+        display: block;
+        float: left;
+        width: 100%;
+        position: relative;
+        .gridder-padding {
+            padding: 0px 0px 0px 10px;
+            .gridder-navigation {
+                position: absolute;
+                top: 20px;
+                right: 30px;
+                z-index: 10;
+                a {
+                    display: inline-block;
+                    &.gridder-close {
+                        display: inline-block;
+                        width: 1.5em;
+                        height: 1.5em;
+                        padding: 0;
+                        @include border-radius(200px);
+                        @include transition(opacity 0.3s, transform 0.3s);
+                        opacity: 0.5;
+                        background-size: contain;
+                        background-position: center;
+                        background-image: url('../img/ic_close_white_24px.svg');
+                        &:hover {
+                            opacity: 1;
+                            @include transform(rotate(90deg));
+                        }
+                    }
+                    &.gridder-nav {
+                        &.prev {
+                            display: none;
+                        }
+                        &.next {
+                            display: none;
+                        }
+                    }
+                }
+
+            }
+        }
+        @include screen-xs {
+            .gridder-padding {
+                padding: 0px 0px 30px 10px;
+            }
+        }
+        .vr-properties {
+            position: relative;
+            z-index: 20;
+            .container {
+                margin: auto;
+                .col {
+                    float: left;
+                    h3 {
+                        margin: 0em 0em 0.4em 0em;
+                    }
+                    span.thumbnail {
+                        display: inline-block;
+                        box-sizing: content-box;
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        margin-right: 1em;
+                    }
+                    @include screen-xs {
+                        span.thumbnail {
+                            width: 80px;
+                            height: 80px;
+                        }
+                    }
+                    @include screen-sm {
+                        span.thumbnail {
+                            width: 90px;
+                            height: 90px;
+                        }
+                    }
+                    @include screen-md {
+                        span.thumbnail {
+                            width: 100px;
+                            height: 100px;
+                        }
+                    }
+                    @include screen-lg {
+                        span.thumbnail {
+                            width: 200px;
+                            height: 200px;
+                        }
+                    }
+                    @include screen-lg {
+                        &.first {
+                            position: relative;
+                            top:-6em;
+                        }
+                    }
+                    &.second {
+                        max-width: 75%;
+                        margin-top: 1em;
+                        .scene-description {
+                            margin-bottom:3em;
+                        }
+                    }
+                    @include screen-sm {
+                        &.second {
+                            max-width: 80%;
+                            margin-top: 1em;
+                        }
+                    }
+                    @include screen-xs {
+                        &.second {
+                            max-width: 100%;
+                            margin-top: 0em;
+                        }
+                    }
+                }
+                @include screen-xs {
+                    .col {
+                        float: none;
+                        text-align: center;
+                    }
+                }
+            }
+            @include screen-lg {
+                .container {
+                    width: 90%;
+                }
+            }
+            @include screen-md {
+                .container {
+                    width: 90%;
+                }
+            }
+            @include screen-sm {
+                .container {
+                    width: 90%;
+                }
+            }
+            @include screen-xs {
+                .container {
+                    width: 100%;
+                    padding-right: 20px;
+                }
+            }
+
+        }
+        .vr-placeholder {
+            height: 60vh;
+        }
+    }
+}
+
+.gridder-content {
+    display: none;
+}
+
+/**
+* FOOTER
+*/
+footer {
+    max-width: $screen-lg-min;
+    margin: 8em auto;
+    padding-left: 10px;
+    .title {
+        margin: 0em 0em 1em 0em;
+    }
+    .project-description {
+        margin-bottom: 5em;
+    }
+    @include screen-lg {
+        .project-description {
+            max-width: 35em;
+        }
+    }
+    @include screen-md {
+        .project-description {
+            max-width: 35em;
+        }
+    }
+    @include screen-sm {
+        .project-description {
+            max-width: 35em;
+        }
+    }
+    @include screen-xs {
+        .project-description {
+            max-width: 90%;
+        }
+    }
+}

@@ -1,0 +1,120 @@
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+    $src: null;
+    $extmods: ( eot: "?", svg: "#" + str-replace($name, " ", "_") );
+    $formats: ( otf: "opentype", ttf: "truetype" );
+    @each $ext in $exts {
+        $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+        $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+        $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+    }
+    @font-face {
+        font-family: quote($name);
+        font-style: $style;
+        font-weight: $weight;
+        src: $src;
+    }
+}
+@mixin google-fonts($fonts...) {
+    $url: "http://fonts.googleapis.com/css?family=";
+    $nb: 0;
+    @each $font-name in $fonts {
+        $nb: $nb + 1;
+        $nb-word: 0;
+        @each $word in $font-name {
+            $nb-word: $nb-word + 1;
+            $url: $url + $word;
+            @if $nb-word < length($font-name) {
+                $url: $url + "+";
+            }
+        }
+        @if $nb < length($fonts) {
+            $url: $url + "|";
+        }
+    }
+
+    @import url(str-replace(#{$url},' ','+'));
+}
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin transition($data...) {
+    -webkit-transition: $data;
+    -moz-transition: $data;
+    -ms-transition: $data;
+    transition: $data;
+}
+@mixin transform($data...) {
+    -webkit-transform: $data;
+    -moz-transform: $data;
+    -ms-transform: $data;
+    transform: $data;
+}
+@mixin box-shadow($data) {
+    -webkit-box-shadow: $data;
+    -moz-box-shadow: $data;
+    -ms-box-shadow: $data;
+    box-shadow: $data;
+}
+@mixin screen-xs {
+    @media (max-width: $screen-xs-max) {
+        @content;
+    }
+}
+@mixin screen-sm {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+        @content;
+    }
+}
+@mixin screen-md {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+        @content;
+    }
+}
+@mixin screen-lg {
+    @media (min-width: $screen-lg-min) {
+        @content;
+    }
+}
+@mixin keyframe($animation_name) {
+    @-webkit-keyframes #{$animation_name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation_name} {
+        @content;
+    }
+    @-o-keyframes #{$animation_name} {
+        @content;
+    }
+    @keyframes #{$animation_name} {
+        @content;
+    }
+}
+@mixin animation ($animation, $delay, $duration, $iteration) {
+    -webkit-animation-delay: $delay;
+    -webkit-animation-duration: $duration;
+    -webkit-animation-name: $animation;
+    -webkit-animation-iteration-count: $iteration;
+    -webkit-animation-fill-mode: forwards;
+    /* this prevents the animation from restarting! */
+    -moz-animation-delay: $delay;
+    -moz-animation-duration: $duration;
+    -moz-animation-name: $animation;
+    -moz-animation-iteration-count: $iteration;
+    -moz-animation-fill-mode: forwards;
+    /* this prevents the animation from restarting! */
+    -o-animation-delay: $delay;
+    -o-animation-duration: $duration;
+    -o-animation-name: $animation;
+    -o-animation-iteration-count: $iteration;
+    -o-animation-fill-mode: forwards;
+    /* this prevents the animation from restarting! */
+    animation-delay: $delay;
+    animation-duration: $duration;
+    animation-name: $animation;
+    animation-iteration-count: $iteration;
+    animation-fill-mode: forwards;
+    /* this prevents the animation from restarting! */
+}

@@ -1,0 +1,22 @@
+/**
+* Google Fonts
+*/
+// $google_font_1:  'Montserrat';
+// $google_font_2:  'Raleway';
+// @include google-fonts($google_font_1,$google_font_2);
+// $font_family_1:  quote($google_font_1), Arial;
+// $font_family_2:  quote($google_font_2), Arial;
+
+/**
+* Font families with local files
+*/
+$font_directory:                        'fonts';
+$font_family_1:                         'Montserrat';
+$font_family_1_filename_wo_ext:         'montserrat-regular-webfont';
+$font_family_1_path:                    '../'+ $font_directory +'/'+ $font_family_1_filename_wo_ext;
+@include 								font-face($font_family_1,$font_family_1_path);
+
+$font_family_2:                         'Raleway';
+$font_family_2_filename_wo_ext:         'raleway-regular-webfont';
+$font_family_2_path:                    '../'+ $font_directory +'/'+ $font_family_2_filename_wo_ext;
+@include 								font-face($font_family_2,$font_family_2_path);
