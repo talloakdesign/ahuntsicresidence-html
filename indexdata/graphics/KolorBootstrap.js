@@ -395,14 +395,14 @@ function createKolorSocial(pPlugID)
 		var kolorSocialOptions = [];
 		
 		//Build the Options data for the KolorSocial
-		var optionLength = parseInt(getKrPanoInstance().get("ptplugin["+pPlugID+"].settings[0].option.count"));
+		var optionLength = parseInt(getKrPanoInstance().get("ptplugin["+pPlugID+"].settings.option.count"));
 	
 		for(var i = 0; i < optionLength; i++)
 		{
-			if (getKrValue("ptplugin["+pPlugID+"].settings[0].option["+i+"].name","string") == 'zorder') {
-				kolorSocialOptions[getKrValue("ptplugin["+pPlugID+"].settings[0].option["+i+"].name","string")] = kolorStartIndex + getKrValue("ptplugin["+pPlugID+"].settings[0].option["+i+"].value", getKrValue("ptplugin["+pPlugID+"].settings[0].option["+i+"].type", "string"));
+			if (getKrValue("ptplugin["+pPlugID+"].settings.option["+i+"].name","string") == 'zorder') {
+				kolorSocialOptions[getKrValue("ptplugin["+pPlugID+"].settings.option["+i+"].name","string")] = kolorStartIndex + getKrValue("ptplugin["+pPlugID+"].settings.option["+i+"].value", getKrValue("ptplugin["+pPlugID+"].settings.option["+i+"].type", "string"));
 			} else {
-				kolorSocialOptions[getKrValue("ptplugin["+pPlugID+"].settings[0].option["+i+"].name","string")] = getKrValue("ptplugin["+pPlugID+"].settings[0].option["+i+"].value", getKrValue("ptplugin["+pPlugID+"].settings[0].option["+i+"].type", "string"));
+				kolorSocialOptions[getKrValue("ptplugin["+pPlugID+"].settings.option["+i+"].name","string")] = getKrValue("ptplugin["+pPlugID+"].settings.option["+i+"].value", getKrValue("ptplugin["+pPlugID+"].settings.option["+i+"].type", "string"));
 			}
 		}
 
@@ -518,11 +518,11 @@ function showKolorFloorPlan(pPlugID, pContent)
 		var optionName = '';
 		var optionValue = '';
 		//Build the Options data for the KolorFloorPlan
-		var optionLength = parseInt(getKrPanoInstance().get("ptplugin["+pPlugID+"].settings[0].option.count"));
+		var optionLength = parseInt(getKrPanoInstance().get("ptplugin["+pPlugID+"].settings.option.count"));
 		for(var j = 0; j < optionLength; j++)
 		{
-			optionName = getKrValue("ptplugin["+pPlugID+"].settings[0].option["+j+"].name","string");
-			optionValue = getKrValue("ptplugin["+pPlugID+"].settings[0].option["+j+"].value", getKrValue("ptplugin["+pPlugID+"].settings[0].option["+j+"].type", "string"));
+			optionName = getKrValue("ptplugin["+pPlugID+"].settings.option["+j+"].name","string");
+			optionValue = getKrValue("ptplugin["+pPlugID+"].settings.option["+j+"].value", getKrValue("ptplugin["+pPlugID+"].settings.option["+j+"].type", "string"));
 			kolorFloorPlanOptions[optionName] = optionValue;
 		}
 		//add the device check
@@ -537,42 +537,42 @@ function showKolorFloorPlan(pPlugID, pContent)
 		var planSpots = null;
 		var planSpot = null;
 		
-		var kolorFloorPlanSelectedItem = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].selectedItem","string");
-		var kolorFloorPlanSelectedSpot = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].selectedSpot","string");
-		var kolorFloorPlanSelectedSpotOptions = [getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].selectedSpotScene","string"), getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].selectedSpotHeading","float"), getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].selectedSpotFov","float")];
+		var kolorFloorPlanSelectedItem = getKrValue("ptplugin["+pPlugID+"].floorplanItems.selectedItem","string");
+		var kolorFloorPlanSelectedSpot = getKrValue("ptplugin["+pPlugID+"].floorplanItems.selectedSpot","string");
+		var kolorFloorPlanSelectedSpotOptions = [getKrValue("ptplugin["+pPlugID+"].floorplanItems.selectedSpotScene","string"), getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].selectedSpotHeading","float"), getKrValue("ptplugin["+pPlugID+"].floorplanItems.selectedSpotFov","float")];
 		
-		var floorplansLength = parseInt(getKrPanoInstance().get("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem.count"));
+		var floorplansLength = parseInt(getKrPanoInstance().get("ptplugin["+pPlugID+"].floorplanItems.floorplanItem.count"));
 		for(var j = 0; j < floorplansLength; j++)
 		{
-			planName = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].name","string");
+			planName = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].name","string");
 			
 			planValues = new Object();
-			planValues.title = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].title","string");
-			planValues.src = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].url","string");
-			planValues.width = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].width","int");
-			planValues.height = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].height","int");
-			planValues.heading = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].heading","float");
+			planValues.title = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].title","string");
+			planValues.src = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].url","string");
+			planValues.width = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].width","int");
+			planValues.height = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].height","int");
+			planValues.heading = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].heading","float");
 			
 			kolorFloorPlanItems[planName] = planValues;
 			
 			planSpots = [];
-			var floorplansItemsLength = parseInt(getKrPanoInstance().get("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].spot.count"));
+			var floorplansItemsLength = parseInt(getKrPanoInstance().get("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].spot.count"));
 			for(var k = 0; k < floorplansItemsLength; k++)
 			{
 				planSpot = new Object();
-				planSpot.name = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].spot["+k+"].name","string");
-				planSpot.posx = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].spot["+k+"].posX","float");
-				planSpot.posy = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].spot["+k+"].posY","float");
-				planSpot.heading = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].spot["+k+"].heading","float");
-				planSpot.desc = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].spot["+k+"].desc","string");
-				planSpot.desctype = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].spot["+k+"].descType","string");
-				planSpot.scene = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].spot["+k+"].scene","string");
-				planSpot.jsclick = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].spot["+k+"].jsClick","string");
-				planSpot.planar = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].spot["+k+"].planar","bool");
-				planSpot.icon = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].spot["+k+"].icon[0].url","string");
-				planSpot.width = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].spot["+k+"].icon[0].iconWidth","int");
-				planSpot.height = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].spot["+k+"].icon[0].iconHeight","int");
-				planSpot.anchor = getKrValue("ptplugin["+pPlugID+"].floorplanItems[0].floorplanItem["+j+"].spot["+k+"].icon[0].iconAnchor","string");
+				planSpot.name = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].spot["+k+"].name","string");
+				planSpot.posx = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].spot["+k+"].posX","float");
+				planSpot.posy = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].spot["+k+"].posY","float");
+				planSpot.heading = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].spot["+k+"].heading","float");
+				planSpot.desc = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].spot["+k+"].desc","string");
+				planSpot.desctype = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].spot["+k+"].descType","string");
+				planSpot.scene = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].spot["+k+"].scene","string");
+				planSpot.jsclick = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].spot["+k+"].jsClick","string");
+				planSpot.planar = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].spot["+k+"].planar","bool");
+				planSpot.icon = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].spot["+k+"].icon.url","string");
+				planSpot.width = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].spot["+k+"].icon.iconWidth","int");
+				planSpot.height = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].spot["+k+"].icon.iconHeight","int");
+				planSpot.anchor = getKrValue("ptplugin["+pPlugID+"].floorplanItems.floorplanItem["+j+"].spot["+k+"].icon.iconAnchor","string");
 				
 				planSpots[planSpot.name] = planSpot;
 			}
@@ -621,8 +621,8 @@ function deleteKolorFloorPlan(pPlugID)
 /**
  * @function
  * @description Add an instance of kolorArea JS Engine, loads JS and CSS files then init and populate related plugin that's based on it.
- * @param {String} pPlugID The name of the plugin you want to give to the kolorArea instance. 
- * @return {void} 
+ * @param {String} pPlugID The name of the plugin you want to give to the kolorArea instance.
+ * @return {void}
  */
 function addKolorArea(pPlugID)
 {
@@ -639,10 +639,10 @@ function addKolorArea(pPlugID)
 
 /**
  * @function
- * @description Init, populate and show the kolorArea. 
+ * @description Init, populate and show the kolorArea.
  * @param {String} pPlugID The name of the plugin you want to init and show.
  * @param {String} pContent The content you want to inject into the kolorArea. I could be HTML string or any other string.
- * @return {void} 
+ * @return {void}
  */
 function showKolorArea(pPlugID, pContent)
 {
@@ -657,14 +657,14 @@ function showKolorArea(pPlugID, pContent)
 		setTimeout(function() { showKolorArea(pPlugID, pContent); }, 100);
 		return;
 	}
-	
+
 	//Check if the KolorArea is instantiate and registered with the ktools.Plugin Object
 	//If not, instantiate the KolorArea and register it.
 	if(ktools.KolorPluginList.getInstance().getPlugin(pPlugID).getRegistered() == null)
 	{
 		ktools.KolorPluginList.getInstance().getPlugin(pPlugID).register(new KolorArea(pPlugID, "panoDIV"));
 	}
-	
+
 	//Get the registered instance of KolorArea
 	var kolorArea = ktools.KolorPluginList.getInstance().getPlugin(pPlugID).getRegistered();
 
@@ -674,17 +674,17 @@ function showKolorArea(pPlugID, pContent)
 		var kolorAreaOptions = [];
 		var optionName = '';
 		var optionValue = '';
-		
+
 		//Build the Options data for the KolorArea
-		var optionLength = parseInt(getKrPanoInstance().get("ptplugin["+pPlugID+"].settings[0].option.count"));
-		
+		var optionLength = parseInt(getKrPanoInstance().get("ptplugin["+pPlugID+"].settings.option.count"));
+
 		for(var j = 0; j < optionLength; j++)
 		{
-			optionName = getKrValue("ptplugin["+pPlugID+"].settings[0].option["+j+"].name","string");
+			optionName = getKrValue("ptplugin["+pPlugID+"].settings.option["+j+"].name","string");
 			if (optionName == 'zorder') {
-				optionValue = kolorStartIndex + getKrValue("ptplugin["+pPlugID+"].settings[0].option["+j+"].value", getKrValue("ptplugin["+pPlugID+"].settings[0].option["+j+"].type", "string"));
+				optionValue = kolorStartIndex + getKrValue("ptplugin["+pPlugID+"].settings.option["+j+"].value", getKrValue("ptplugin["+pPlugID+"].settings.option["+j+"].type", "string"));
 			} else {
-				optionValue = getKrValue("ptplugin["+pPlugID+"].settings[0].option["+j+"].value", getKrValue("ptplugin["+pPlugID+"].settings[0].option["+j+"].type", "string"));
+				optionValue = getKrValue("ptplugin["+pPlugID+"].settings.option["+j+"].value", getKrValue("ptplugin["+pPlugID+"].settings.option["+j+"].type", "string"));
 			}
 			kolorAreaOptions[optionName] = optionValue;
 		}
@@ -701,7 +701,7 @@ function showKolorArea(pPlugID, pContent)
 
 	kolorArea.setKolorAreaContent(pContent);
 	kolorArea.openKolorArea();
-	
+
 	//If a plugin method has been called before registration the method is called now
 	if(pluginLoaded && pluginLoaded.item(pPlugID)){
 		invokePluginFunction.apply(null, pluginLoaded.item(pPlugID).funcArgs);
@@ -713,7 +713,7 @@ function showKolorArea(pPlugID, pContent)
  * @function
  * @description Delete kolorArea.
  * @param {String} pPlugID The name of the plugin you want to delete.
- * @return {void} 
+ * @return {void}
  */
 function deleteKolorArea(pPlugID)
 {
