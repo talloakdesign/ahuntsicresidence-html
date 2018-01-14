@@ -11,6 +11,8 @@
 
   <data name="en_pano105928_title"><![CDATA[Rue Saint-Hubert]]></data>
   <data name="en_spotpoint105944_tooltip"><![CDATA[Parc-du-boise-de-saint-sulpice]]></data>
+  <data name="en_spotpoint107106_tooltip"><![CDATA[Visitez le Collège]]></data>
+  <data name="en_spotpoint107106openurlwebsiteurl"><![CDATA[http://visite.cahuntsic.ca]]></data>
   <data name="en_pano105932_title"><![CDATA[Parc-du-boise-de-saint-sulpice]]></data>
   <data name="en_spotpoint105945_tooltip"><![CDATA[Rue Saint-Hubert]]></data>
   <data name="en_spotpoint105946_tooltip"><![CDATA[Côté ouest du parc]]></data>
@@ -22,6 +24,23 @@
   <data name="en_spotpoint105950_tooltip"><![CDATA[Côté ouest du parc]]></data>
   <data name="en_spotpoint105951_tooltip"><![CDATA[Parc-du-boise-de-saint-sulpice]]></data>
   <data name="en_spotpoint105952_tooltip"><![CDATA[Foyer]]></data>
+
+  <data name="en_panogroup106169_title"><![CDATA[L'étage 0]]></data>
+
+  <data name="en_pano106168_title"><![CDATA[Accès à l'ascenseur (R0)]]></data>
+  <data name="en_spotpoint106170_tooltip"><![CDATA[Ascenseur]]></data>
+  <data name="en_spotpoint106181_tooltip"><![CDATA[Corridor R-008]]></data>
+  <data name="en_pano106171_title"><![CDATA[Corridor R-008]]></data>
+  <data name="en_spotpoint106179_tooltip"><![CDATA[Espace de rangement]]></data>
+  <data name="en_spotpoint106180_tooltip"><![CDATA[Accès à l'ascenseur (R0)]]></data>
+  <data name="en_spotpoint106188_tooltip"><![CDATA[Corridor R-012]]></data>
+  <data name="en_pano106173_title"><![CDATA[Espace de rangement]]></data>
+  <data name="en_spotpoint106182_tooltip"><![CDATA[Corridor R-008]]></data>
+  <data name="en_pano106177_title"><![CDATA[Corridor R-012]]></data>
+  <data name="en_spotpoint106186_tooltip"><![CDATA[Velos]]></data>
+  <data name="en_spotpoint106187_tooltip"><![CDATA[Corridor R-008]]></data>
+  <data name="en_pano106183_title"><![CDATA[Velos]]></data>
+  <data name="en_spotpoint106185_tooltip"><![CDATA[Corridor R-012]]></data>
 
   <data name="en_panogroup105941_title"><![CDATA[L'étage 1]]></data>
 
@@ -84,23 +103,6 @@
   <data name="en_spotpoint106259_tooltip"><![CDATA[Niveau 1]]></data>
   <data name="en_spotpoint106260_tooltip"><![CDATA[Niveau 6]]></data>
 
-  <data name="en_panogroup106169_title"><![CDATA[L'étage 0]]></data>
-
-  <data name="en_pano106168_title"><![CDATA[Accès à l'ascenseur (R0)]]></data>
-  <data name="en_spotpoint106170_tooltip"><![CDATA[Ascenseur]]></data>
-  <data name="en_spotpoint106181_tooltip"><![CDATA[Corridor R-008]]></data>
-  <data name="en_pano106171_title"><![CDATA[Corridor R-008]]></data>
-  <data name="en_spotpoint106179_tooltip"><![CDATA[Espace de rangement]]></data>
-  <data name="en_spotpoint106180_tooltip"><![CDATA[Accès à l'ascenseur (R0)]]></data>
-  <data name="en_spotpoint106188_tooltip"><![CDATA[Corridor R-012]]></data>
-  <data name="en_pano106173_title"><![CDATA[Espace de rangement]]></data>
-  <data name="en_spotpoint106182_tooltip"><![CDATA[Corridor R-008]]></data>
-  <data name="en_pano106177_title"><![CDATA[Corridor R-012]]></data>
-  <data name="en_spotpoint106186_tooltip"><![CDATA[Velos]]></data>
-  <data name="en_spotpoint106187_tooltip"><![CDATA[Corridor R-008]]></data>
-  <data name="en_pano106183_title"><![CDATA[Velos]]></data>
-  <data name="en_spotpoint106185_tooltip"><![CDATA[Corridor R-012]]></data>
-
   <data name="en_panogroup106192_title"><![CDATA[L'étage 6]]></data>
 
   <data name="en_pano106191_title"><![CDATA[Accès à l'ascenseur (R6)]]></data>
@@ -152,12 +154,12 @@
   <data name="en_spotpoint106252_tooltip"><![CDATA[Cuisine]]></data>
 
 
-	<data name="en_spotmap106419_tooltip"><![CDATA[]]></data>
-	<data name="en_spotmap106420_tooltip"><![CDATA[]]></data>
-	<data name="en_spotmap106421_tooltip"><![CDATA[]]></data>
-	<data name="en_spotmap106422_tooltip"><![CDATA[]]></data>
-	<data name="en_spotmap106423_tooltip"><![CDATA[]]></data>
-	<data name="en_spotmap106424_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap107412_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap107413_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap107414_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap107415_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap107416_tooltip"><![CDATA[]]></data>
+	<data name="en_spotmap107417_tooltip"><![CDATA[]]></data>
 
 
 
@@ -191,6 +193,8 @@
   <data name="en_socialButtonfb_appid"><![CDATA[]]></data>
   <data name="en_socialButtonfb_ref"><![CDATA[]]></data>
   <data name="en_floorPlanmenu_label"><![CDATA[Select a floor plan]]></data>
+  <data name="en_floorPlandisplay_close_text"><![CDATA[Fermer]]></data>
+  <data name="en_buttontooltip"><![CDATA[Plan d'étage]]></data>
 
 
   <data name="en_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>
@@ -225,7 +229,26 @@
   <data name="en_vr_setup_unavailable"><![CDATA[VR mode[br]is unavailable on your device]]></data>
 
 
-  <data name="en_project_description"><![CDATA[<h2><span style="line-height: 1.538em; font-weight: normal;"><font face="arial, sans-serif" size="2">Un milieu d'études, un milieu de vie !</font></span></h2>]]></data>
+  <data name="en_project_description"><![CDATA[<br><b>Un milieu d'études, un milieu de vie !<br></b><br><ul><li>Capacité d’accueil : 429 étudiants.</li><li>Nombre d’unités de logement : 268 studios individuels et appartements de 2 ou 3 chambres comprenant salle de bain et cuisinette</li><li>Unités entièrement meublées incluant le câble, le téléphone et l’Internet</li><li>Salles d’étude, de réception, d’entraînement, de jeux et de cinéma maison</li><li>Située au 8755, rue Saint-Hubert, près du Collège Ahuntsic, entre l’avenue Émile-Journault et le boulevard Crémazie, à quelques pas de la station de métro Crémazie</li></ul><h2></h2>]]></data>
+
+
+  <data name="en_pano105928_description"><![CDATA[<h2 style="border: 0px none rgb(95, 121, 7); border-image-outset: 0; border-image-repeat: stretch; border-image-slice: 100%; border-image-source: none; border-image-width: 1; color: rgb(95, 121, 7); font-size: 21.6px; font-weight: 400; line-height: 30.24px; margin: 12px 0px 6px; orphans: 2; outline: invert none 0px; padding: 0px; vertical-align: baseline; background-image: none; background-attachment: scroll; background-size: auto; background-origin: padding-box; background-clip: border-box; background-position: 0% 0%; background-repeat: repeat;"><br style="color: rgb(0, 0, 0); font-size: medium; line-height: normal; orphans: auto;"><b style="color: rgb(0, 0, 0); font-size: medium; line-height: normal; orphans: auto;">Un milieu d'études, un milieu de vie !<br></b><br style="color: rgb(0, 0, 0); font-size: medium; line-height: normal; orphans: auto;"><ul style="color: rgb(0, 0, 0); font-size: medium; line-height: normal; orphans: auto;"><li>Capacité d’accueil : 429 étudiants.</li><li>Nombre d’unités de logement : 268 studios individuels et appartements de 2 ou 3 chambres comprenant salle de bain et cuisinette</li><li>Unités entièrement meublées incluant le câble, le téléphone et l’Internet</li><li>Salles d’étude, de réception, d’entraînement, de jeux et de cinéma maison</li><li>Située au 8755, rue Saint-Hubert, près du Collège Ahuntsic, entre l’avenue Émile-Journault et le boulevard Crémazie, à quelques pas de la station de métro Crémazie</li></ul></h2>]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <data name="en_pano105940_description"><![CDATA[L’équipe en place (agent de bureau, concierge, technicienne en travail social, agent de sécurité, responsable d’étage et gestionnaire) essaie de sensibiliser les locataires à cette réalité et travaille à  créer un milieu de vie stimulant et sécuritaire, où règne le respect de l’autre et de l’environnement. ]]></data>
+
+  <data name="en_pano106008_description"><![CDATA[La résidence est un endroit où cohabitent 429 personnes. À la résidence, les jeunes doivent apprendre à vivre ensemble, malgré leurs différences. Le partage et la tolérance deviennent pour eux une pratique quotidienne.]]></data>
 
 
 
@@ -254,27 +277,13 @@
 
 
 
+  <data name="en_pano106228_description"><![CDATA[Unités entièrement meublées incluant le câble, le téléphone et l’Internet]]></data>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <data name="en_pano106247_description"><![CDATA[Unités entièrement meublées incluant le câble, le téléphone et l’Internet]]></data>
 
 
 
