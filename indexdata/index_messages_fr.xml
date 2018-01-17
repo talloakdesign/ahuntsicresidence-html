@@ -10,156 +10,161 @@
   <data name="fr_panogroup105929_title"><![CDATA[Extérieur]]></data>
 
   <data name="fr_pano105928_title"><![CDATA[Rue Saint-Hubert]]></data>
-  <data name="fr_spotpoint105944_tooltip"><![CDATA[Parc-du-boise-de-saint-sulpice]]></data>
+  <data name="fr_spotpoint105944_tooltip"><![CDATA[Parc-du-boisé-de-saint-sulpice]]></data>
   <data name="fr_spotpoint107106_tooltip"><![CDATA[Visitez le Collège]]></data>
   <data name="fr_spotpoint107106openurlwebsiteurl"><![CDATA[http://visite.cahuntsic.ca]]></data>
-  <data name="fr_pano105932_title"><![CDATA[Parc-du-boise-de-saint-sulpice]]></data>
+  <data name="fr_pano105932_title"><![CDATA[Parc-du-boisé-de-saint-sulpice]]></data>
   <data name="fr_spotpoint105945_tooltip"><![CDATA[Rue Saint-Hubert]]></data>
-  <data name="fr_spotpoint105946_tooltip"><![CDATA[Côté ouest du parc]]></data>
+  <data name="fr_spotpoint105946_tooltip"><![CDATA[Côté Ouest de la résidence]]></data>
   <data name="fr_spotpoint105947_tooltip"><![CDATA[Entrée principale]]></data>
-  <data name="fr_pano105935_title"><![CDATA[Côté ouest du parc]]></data>
-  <data name="fr_spotpoint105948_tooltip"><![CDATA[Parc-du-boise-de-saint-sulpice]]></data>
+  <data name="fr_pano105935_title"><![CDATA[Côté Ouest de la résidence]]></data>
+  <data name="fr_spotpoint105948_tooltip"><![CDATA[Parc-du-boisé-de-saint-sulpice]]></data>
   <data name="fr_spotpoint105949_tooltip"><![CDATA[Entrée principale]]></data>
   <data name="fr_pano105937_title"><![CDATA[Entrée principale]]></data>
-  <data name="fr_spotpoint105950_tooltip"><![CDATA[Côté ouest du parc]]></data>
-  <data name="fr_spotpoint105951_tooltip"><![CDATA[Parc-du-boise-de-saint-sulpice]]></data>
-  <data name="fr_spotpoint105952_tooltip"><![CDATA[Foyer]]></data>
+  <data name="fr_spotpoint105950_tooltip"><![CDATA[Côté Ouest de la résidence]]></data>
+  <data name="fr_spotpoint105951_tooltip"><![CDATA[Parc-du-boisé-de-saint-sulpice]]></data>
+  <data name="fr_spotpoint105952_tooltip"><![CDATA[Rez-de-chaussée]]></data>
 
-  <data name="fr_panogroup106169_title"><![CDATA[L'étage 0]]></data>
+  <data name="fr_panogroup106169_title"><![CDATA[Sous-sol ]]></data>
 
-  <data name="fr_pano106168_title"><![CDATA[Accès à l'ascenseur (R0)]]></data>
+  <data name="fr_pano106168_title"><![CDATA[Accès à l'ascenseur (sous-sol)]]></data>
   <data name="fr_spotpoint106170_tooltip"><![CDATA[Ascenseur]]></data>
-  <data name="fr_spotpoint106181_tooltip"><![CDATA[Corridor R-008]]></data>
-  <data name="fr_pano106171_title"><![CDATA[Corridor R-008]]></data>
-  <data name="fr_spotpoint106179_tooltip"><![CDATA[Espace de rangement]]></data>
-  <data name="fr_spotpoint106180_tooltip"><![CDATA[Accès à l'ascenseur (R0)]]></data>
-  <data name="fr_spotpoint106188_tooltip"><![CDATA[Corridor R-012]]></data>
-  <data name="fr_pano106173_title"><![CDATA[Espace de rangement]]></data>
-  <data name="fr_spotpoint106182_tooltip"><![CDATA[Corridor R-008]]></data>
-  <data name="fr_pano106177_title"><![CDATA[Corridor R-012]]></data>
-  <data name="fr_spotpoint106186_tooltip"><![CDATA[Velos]]></data>
-  <data name="fr_spotpoint106187_tooltip"><![CDATA[Corridor R-008]]></data>
-  <data name="fr_pano106183_title"><![CDATA[Velos]]></data>
-  <data name="fr_spotpoint106185_tooltip"><![CDATA[Corridor R-012]]></data>
+  <data name="fr_spotpoint106181_tooltip"><![CDATA[Entrée de la rangement]]></data>
+  <data name="fr_pano106171_title"><![CDATA[Entrée de la rangement]]></data>
+  <data name="fr_spotpoint106179_tooltip"><![CDATA[Espace du rangement]]></data>
+  <data name="fr_spotpoint106180_tooltip"><![CDATA[Accès à l'ascenseur (sous-sol)]]></data>
+  <data name="fr_spotpoint106188_tooltip"><![CDATA[Rangement pour vélos]]></data>
+  <data name="fr_pano106173_title"><![CDATA[Espace du rangement]]></data>
+  <data name="fr_spotpoint106182_tooltip"><![CDATA[Entrée de la rangement]]></data>
+  <data name="fr_pano106177_title"><![CDATA[Rangement pour vélos]]></data>
+  <data name="fr_spotpoint106186_tooltip"><![CDATA[Entrée du rangement pour vélos]]></data>
+  <data name="fr_spotpoint106187_tooltip"><![CDATA[Entrée de la rangement]]></data>
+  <data name="fr_pano106183_title"><![CDATA[Entrée du rangement pour vélos]]></data>
+  <data name="fr_spotpoint106185_tooltip"><![CDATA[Rangement pour vélos]]></data>
 
-  <data name="fr_panogroup105941_title"><![CDATA[L'étage 1]]></data>
+  <data name="fr_panogroup105941_title"><![CDATA[Rez-de-chaussée ]]></data>
 
-  <data name="fr_pano105940_title"><![CDATA[Foyer]]></data>
-  <data name="fr_spotpoint105953_tooltip"><![CDATA[Entrée principale]]></data>
+  <data name="fr_pano105940_title"><![CDATA[Bureau de l’administration et de la sécurité]]></data>
+  <data name="fr_spotpoint105953_tooltip"><![CDATA[À l'extérieur]]></data>
   <data name="fr_spotpoint106012_tooltip"><![CDATA[Salle de sejour]]></data>
-  <data name="fr_spotpoint106013_tooltip"><![CDATA[Corridor R-126]]></data>
-  <data name="fr_spotpoint106152_tooltip"><![CDATA[Accès à l'ascenseur (R1)]]></data>
+  <data name="fr_spotpoint106013_tooltip"><![CDATA[Vers la gym et cinema]]></data>
+  <data name="fr_spotpoint106152_tooltip"><![CDATA[Accès à l'ascenseur (1e niveau)]]></data>
+  <data name="fr_spotpoint107632_tooltip"><![CDATA[Entrée arrière]]></data>
+  <data name="fr_spotpoint107634_tooltip"><![CDATA[Bureau de la sécurité]]></data>
   <data name="fr_pano106008_title"><![CDATA[Salle de sejour]]></data>
-  <data name="fr_spotpoint106014_tooltip"><![CDATA[Foyer]]></data>
-  <data name="fr_spotpoint106015_tooltip"><![CDATA[Corridor R-126]]></data>
-  <data name="fr_pano106010_title"><![CDATA[Corridor R-126]]></data>
-  <data name="fr_spotpoint106016_tooltip"><![CDATA[Foyer]]></data>
+  <data name="fr_spotpoint106014_tooltip"><![CDATA[Bureau de l’administration et de la sécurité]]></data>
+  <data name="fr_spotpoint106015_tooltip"><![CDATA[Vers la gym et cinema]]></data>
+  <data name="fr_pano106010_title"><![CDATA[Couloir à l'extérieur de l'office]]></data>
+  <data name="fr_spotpoint106016_tooltip"><![CDATA[Bureau de l’administration et de la sécurité]]></data>
   <data name="fr_spotpoint106017_tooltip"><![CDATA[Salle de sejour]]></data>
-  <data name="fr_spotpoint106020_tooltip"><![CDATA[R-126]]></data>
-  <data name="fr_spotpoint106034_tooltip"><![CDATA[Corridor R-124]]></data>
-  <data name="fr_pano106018_title"><![CDATA[R-126]]></data>
-  <data name="fr_spotpoint106021_tooltip"><![CDATA[Corridor R-126]]></data>
+  <data name="fr_spotpoint106020_tooltip"><![CDATA[Local des accompagnateurs à la vie communautaire]]></data>
+  <data name="fr_spotpoint106034_tooltip"><![CDATA[Entrée au cinéma et à la cuisine]]></data>
+  <data name="fr_pano106018_title"><![CDATA[Local des accompagnateurs à la vie communautaire]]></data>
+  <data name="fr_spotpoint106021_tooltip"><![CDATA[Couloir à l'extérieur de l'office]]></data>
   <data name="fr_spotpoint106024_tooltip"><![CDATA[Buanderie]]></data>
   <data name="fr_pano106022_title"><![CDATA[Buanderie]]></data>
-  <data name="fr_spotpoint106025_tooltip"><![CDATA[R-126]]></data>
-  <data name="fr_pano106026_title"><![CDATA[Corridor R-124]]></data>
-  <data name="fr_spotpoint106032_tooltip"><![CDATA[Cuisine]]></data>
-  <data name="fr_spotpoint106035_tooltip"><![CDATA[Corridor R-126]]></data>
-  <data name="fr_spotpoint106124_tooltip"><![CDATA[Salle de cimema]]></data>
-  <data name="fr_spotpoint106128_tooltip"><![CDATA[Corridor R-120]]></data>
-  <data name="fr_pano106028_title"><![CDATA[Salle de cimema]]></data>
-  <data name="fr_spotpoint106123_tooltip"><![CDATA[Corridor R-124]]></data>
-  <data name="fr_pano106030_title"><![CDATA[Cuisine]]></data>
-  <data name="fr_spotpoint106033_tooltip"><![CDATA[Corridor R-124]]></data>
-  <data name="fr_pano106125_title"><![CDATA[Corridor R-120]]></data>
-  <data name="fr_spotpoint106127_tooltip"><![CDATA[Corridor R-124]]></data>
+  <data name="fr_spotpoint106025_tooltip"><![CDATA[Local des accompagnateurs à la vie communautaire]]></data>
+  <data name="fr_pano106026_title"><![CDATA[Entrée au cinéma et à la cuisine]]></data>
+  <data name="fr_spotpoint106032_tooltip"><![CDATA[Cuisine communautaire]]></data>
+  <data name="fr_spotpoint106035_tooltip"><![CDATA[Couloir à l'extérieur de l'office]]></data>
+  <data name="fr_spotpoint106124_tooltip"><![CDATA[Cinéma-maison]]></data>
+  <data name="fr_spotpoint106128_tooltip"><![CDATA[Entrée à la salle de musculation]]></data>
+  <data name="fr_pano106028_title"><![CDATA[Cinéma-maison]]></data>
+  <data name="fr_spotpoint106123_tooltip"><![CDATA[Entrée au cinéma et à la cuisine]]></data>
+  <data name="fr_pano106030_title"><![CDATA[Cuisine communautaire]]></data>
+  <data name="fr_spotpoint106033_tooltip"><![CDATA[Entrée au cinéma et à la cuisine]]></data>
+  <data name="fr_pano106125_title"><![CDATA[Entrée à la salle de musculation]]></data>
+  <data name="fr_spotpoint106127_tooltip"><![CDATA[Entrée au cinéma et à la cuisine]]></data>
   <data name="fr_spotpoint106132_tooltip"><![CDATA[Salle de musculation]]></data>
-  <data name="fr_spotpoint106136_tooltip"><![CDATA[Salle d'activité]]></data>
-  <data name="fr_spotpoint106141_tooltip"><![CDATA[Corridor R-114]]></data>
+  <data name="fr_spotpoint106136_tooltip"><![CDATA[Salle de jeux]]></data>
+  <data name="fr_spotpoint106141_tooltip"><![CDATA[Entrée de la salle de jeu]]></data>
   <data name="fr_pano106129_title"><![CDATA[Salle de musculation]]></data>
-  <data name="fr_spotpoint106131_tooltip"><![CDATA[Corridor R-120]]></data>
-  <data name="fr_pano106133_title"><![CDATA[Salle d'activité]]></data>
-  <data name="fr_spotpoint106135_tooltip"><![CDATA[Corridor R-114]]></data>
-  <data name="fr_pano106137_title"><![CDATA[Corridor R-114]]></data>
-  <data name="fr_spotpoint106142_tooltip"><![CDATA[Corridor R-120]]></data>
-  <data name="fr_spotpoint106143_tooltip"><![CDATA[Salle d'activité]]></data>
-  <data name="fr_spotpoint106144_tooltip"><![CDATA[Distributeur automatique]]></data>
-  <data name="fr_pano106139_title"><![CDATA[Distributeur automatique]]></data>
-  <data name="fr_spotpoint106145_tooltip"><![CDATA[Corridor R-114]]></data>
-  <data name="fr_pano106149_title"><![CDATA[Accès à l'ascenseur (R1)]]></data>
-  <data name="fr_spotpoint106151_tooltip"><![CDATA[Foyer]]></data>
-  <data name="fr_spotpoint106156_tooltip"><![CDATA[Corridor R-101]]></data>
+  <data name="fr_spotpoint106131_tooltip"><![CDATA[Entrée à la salle de musculation]]></data>
+  <data name="fr_pano106133_title"><![CDATA[Salle de jeux]]></data>
+  <data name="fr_spotpoint106135_tooltip"><![CDATA[Entrée de la salle de jeu]]></data>
+  <data name="fr_pano106137_title"><![CDATA[Entrée de la salle de jeu]]></data>
+  <data name="fr_spotpoint106142_tooltip"><![CDATA[Entrée à la salle de musculation]]></data>
+  <data name="fr_spotpoint106143_tooltip"><![CDATA[Salle de jeux]]></data>
+  <data name="fr_spotpoint106144_tooltip"><![CDATA[Distributeurs automatiques]]></data>
+  <data name="fr_pano106139_title"><![CDATA[Distributeurs automatiques]]></data>
+  <data name="fr_spotpoint106145_tooltip"><![CDATA[Entrée de la salle de jeu]]></data>
+  <data name="fr_spotpoint107633_tooltip"><![CDATA[Les toilettes]]></data>
+  <data name="fr_pano106149_title"><![CDATA[Accès à l'ascenseur (1e niveau)]]></data>
+  <data name="fr_spotpoint106151_tooltip"><![CDATA[Bureau de l’administration et de la sécurité]]></data>
+  <data name="fr_spotpoint106156_tooltip"><![CDATA[Couloir vers les chambres impair]]></data>
   <data name="fr_spotpoint106167_tooltip"><![CDATA[Ascenseur]]></data>
-  <data name="fr_pano106153_title"><![CDATA[Corridor R-101]]></data>
-  <data name="fr_spotpoint106155_tooltip"><![CDATA[Accès à l'ascenseur (R1)]]></data>
-  <data name="fr_spotpoint106160_tooltip"><![CDATA[Corridor R-109]]></data>
-  <data name="fr_pano106157_title"><![CDATA[Corridor R-109]]></data>
-  <data name="fr_spotpoint106159_tooltip"><![CDATA[Corridor R-101]]></data>
-  <data name="fr_spotpoint106164_tooltip"><![CDATA[Corridor R-123]]></data>
-  <data name="fr_pano106161_title"><![CDATA[Corridor R-123]]></data>
-  <data name="fr_spotpoint106163_tooltip"><![CDATA[Corridor R-109]]></data>
+  <data name="fr_pano106153_title"><![CDATA[Couloir vers les chambres impair]]></data>
+  <data name="fr_spotpoint106155_tooltip"><![CDATA[Accès à l'ascenseur (1e niveau)]]></data>
+  <data name="fr_spotpoint106160_tooltip"><![CDATA[Corridor impair 133 et 109]]></data>
+  <data name="fr_pano106157_title"><![CDATA[Corridor impair 133 et 109]]></data>
+  <data name="fr_spotpoint106159_tooltip"><![CDATA[Couloir vers les chambres impair]]></data>
+  <data name="fr_spotpoint106164_tooltip"><![CDATA[Corridor impair 123 et sortie d'urgence]]></data>
+  <data name="fr_pano106161_title"><![CDATA[Corridor impair 123 et sortie d'urgence]]></data>
+  <data name="fr_spotpoint106163_tooltip"><![CDATA[Corridor impair 133 et 109]]></data>
+
+  <data name="fr_panogroup106192_title"><![CDATA[6e niveau]]></data>
+
+  <data name="fr_pano106191_title"><![CDATA[Accès à l'ascenseur (6e)]]></data>
+  <data name="fr_spotpoint106210_tooltip"><![CDATA[Ascenseur]]></data>
+  <data name="fr_spotpoint106211_tooltip"><![CDATA[Escalier]]></data>
+  <data name="fr_spotpoint106212_tooltip"><![CDATA[Corridor pair, 614 et 636]]></data>
+  <data name="fr_spotpoint106213_tooltip"><![CDATA[Corridor pair, 652]]></data>
+  <data name="fr_pano106193_title"><![CDATA[Corridor pair, 652]]></data>
+  <data name="fr_spotpoint106214_tooltip"><![CDATA[Accès à l'ascenseur (6e)]]></data>
+  <data name="fr_spotpoint106215_tooltip"><![CDATA[Salle d'étude]]></data>
+  <data name="fr_spotpoint106216_tooltip"><![CDATA[Corridor impair, 609 et 633]]></data>
+  <data name="fr_pano106195_title"><![CDATA[Salle d'étude]]></data>
+  <data name="fr_spotpoint106220_tooltip"><![CDATA[Corridor pair, 652]]></data>
+  <data name="fr_pano106197_title"><![CDATA[Corridor impair, 609 et 633]]></data>
+  <data name="fr_spotpoint106221_tooltip"><![CDATA[Corridor pair, 652]]></data>
+  <data name="fr_spotpoint106222_tooltip"><![CDATA[Corridor (Lodement de deux chambres)]]></data>
+  <data name="fr_pano106201_title"><![CDATA[Corridor (Lodement de deux chambres)]]></data>
+  <data name="fr_spotpoint106223_tooltip"><![CDATA[Corridor impair, 609 et 633]]></data>
+  <data name="fr_spotpoint106224_tooltip"><![CDATA[Corridor impair, 621 et 619]]></data>
+  <data name="fr_spotpoint106237_tooltip"><![CDATA[Lodement de deux chambres]]></data>
+  <data name="fr_pano106228_title"><![CDATA[Lodement de deux chambres]]></data>
+  <data name="fr_spotpoint106236_tooltip"><![CDATA[Corridor (Lodement de deux chambres)]]></data>
+  <data name="fr_spotpoint106238_tooltip"><![CDATA[Salle de bains (deux chambres)]]></data>
+  <data name="fr_spotpoint106240_tooltip"><![CDATA[Chambre A]]></data>
+  <data name="fr_spotpoint106241_tooltip"><![CDATA[Chambre B]]></data>
+  <data name="fr_pano106230_title"><![CDATA[Chambre A]]></data>
+  <data name="fr_spotpoint106243_tooltip"><![CDATA[Lodement de deux chambres]]></data>
+  <data name="fr_pano106232_title"><![CDATA[Chambre B]]></data>
+  <data name="fr_spotpoint106242_tooltip"><![CDATA[Lodement de deux chambres]]></data>
+  <data name="fr_pano106234_title"><![CDATA[Salle de bains (deux chambres)]]></data>
+  <data name="fr_spotpoint106239_tooltip"><![CDATA[Lodement de deux chambres]]></data>
+  <data name="fr_pano106199_title"><![CDATA[Corridor impair, 621 et 619]]></data>
+  <data name="fr_spotpoint106225_tooltip"><![CDATA[Corridor (Lodement de deux chambres)]]></data>
+  <data name="fr_spotpoint106256_tooltip"><![CDATA[Studio]]></data>
+  <data name="fr_pano106247_title"><![CDATA[Studio]]></data>
+  <data name="fr_spotpoint106251_tooltip"><![CDATA[Salle de bains (studio)]]></data>
+  <data name="fr_spotpoint106253_tooltip"><![CDATA[Espace vital]]></data>
+  <data name="fr_spotpoint106255_tooltip"><![CDATA[Corridor impair, 621 et 619]]></data>
+  <data name="fr_pano106245_title"><![CDATA[Espace vital]]></data>
+  <data name="fr_spotpoint106254_tooltip"><![CDATA[Cusine]]></data>
+  <data name="fr_pano106248_title"><![CDATA[Salle de bains (studio)]]></data>
+  <data name="fr_spotpoint106252_tooltip"><![CDATA[Cuisine]]></data>
+  <data name="fr_pano106203_title"><![CDATA[Corridor pair, 614 et 636]]></data>
+  <data name="fr_spotpoint106217_tooltip"><![CDATA[Accès à l'ascenseur (6e)]]></data>
+  <data name="fr_spotpoint106218_tooltip"><![CDATA[Corridor pair 624 et sortie d'urgence]]></data>
+  <data name="fr_pano106205_title"><![CDATA[Corridor pair 624 et sortie d'urgence]]></data>
+  <data name="fr_spotpoint106219_tooltip"><![CDATA[Corridor pair, 614 et 636]]></data>
+  <data name="fr_pano106207_title"><![CDATA[Escalier]]></data>
+  <data name="fr_spotpoint106209_tooltip"><![CDATA[Accès à l'ascenseur (6e)]]></data>
+
+
   <data name="fr_pano106165_title"><![CDATA[Ascenseur]]></data>
   <data name="fr_spotpoint106258_tooltip"><![CDATA[Niveau 0]]></data>
   <data name="fr_spotpoint106259_tooltip"><![CDATA[Niveau 1]]></data>
   <data name="fr_spotpoint106260_tooltip"><![CDATA[Niveau 6]]></data>
 
-  <data name="fr_panogroup106192_title"><![CDATA[L'étage 6]]></data>
 
-  <data name="fr_pano106191_title"><![CDATA[Accès à l'ascenseur (R6)]]></data>
-  <data name="fr_spotpoint106210_tooltip"><![CDATA[Ascenseur]]></data>
-  <data name="fr_spotpoint106211_tooltip"><![CDATA[Escalier]]></data>
-  <data name="fr_spotpoint106212_tooltip"><![CDATA[Corridor R-614]]></data>
-  <data name="fr_spotpoint106213_tooltip"><![CDATA[Corridor R-652]]></data>
-  <data name="fr_pano106193_title"><![CDATA[Corridor R-652]]></data>
-  <data name="fr_spotpoint106214_tooltip"><![CDATA[Accès à l'ascenseur (R6)]]></data>
-  <data name="fr_spotpoint106215_tooltip"><![CDATA[Salle Commune]]></data>
-  <data name="fr_spotpoint106216_tooltip"><![CDATA[Corridor R-609]]></data>
-  <data name="fr_pano106195_title"><![CDATA[Salle Commune]]></data>
-  <data name="fr_spotpoint106220_tooltip"><![CDATA[Corridor R-652]]></data>
-  <data name="fr_pano106197_title"><![CDATA[Corridor R-609]]></data>
-  <data name="fr_spotpoint106221_tooltip"><![CDATA[Corridor R-652]]></data>
-  <data name="fr_spotpoint106222_tooltip"><![CDATA[Corridor R-627]]></data>
-  <data name="fr_pano106199_title"><![CDATA[Corridor R-619]]></data>
-  <data name="fr_spotpoint106225_tooltip"><![CDATA[Corridor R-627]]></data>
-  <data name="fr_spotpoint106256_tooltip"><![CDATA[R-619]]></data>
-  <data name="fr_pano106201_title"><![CDATA[Corridor R-627]]></data>
-  <data name="fr_spotpoint106223_tooltip"><![CDATA[Corridor R-609]]></data>
-  <data name="fr_spotpoint106224_tooltip"><![CDATA[Corridor R-619]]></data>
-  <data name="fr_spotpoint106237_tooltip"><![CDATA[R-627]]></data>
-  <data name="fr_pano106203_title"><![CDATA[Corridor R-614]]></data>
-  <data name="fr_spotpoint106217_tooltip"><![CDATA[Accès à l'ascenseur (R6)]]></data>
-  <data name="fr_spotpoint106218_tooltip"><![CDATA[Corridor R-624]]></data>
-  <data name="fr_pano106205_title"><![CDATA[Corridor R-624]]></data>
-  <data name="fr_spotpoint106219_tooltip"><![CDATA[Corridor R-614]]></data>
-  <data name="fr_pano106207_title"><![CDATA[Escalier]]></data>
-  <data name="fr_spotpoint106209_tooltip"><![CDATA[Accès à l'ascenseur (R6)]]></data>
-  <data name="fr_pano106228_title"><![CDATA[R-627]]></data>
-  <data name="fr_spotpoint106236_tooltip"><![CDATA[Corridor R-627]]></data>
-  <data name="fr_spotpoint106238_tooltip"><![CDATA[Salle de bains]]></data>
-  <data name="fr_spotpoint106240_tooltip"><![CDATA[Chambre A]]></data>
-  <data name="fr_spotpoint106241_tooltip"><![CDATA[Chambre B]]></data>
-  <data name="fr_pano106230_title"><![CDATA[Chambre A]]></data>
-  <data name="fr_spotpoint106243_tooltip"><![CDATA[R-627]]></data>
-  <data name="fr_pano106232_title"><![CDATA[Chambre B]]></data>
-  <data name="fr_spotpoint106242_tooltip"><![CDATA[R-627]]></data>
-  <data name="fr_pano106234_title"><![CDATA[Salle de bains]]></data>
-  <data name="fr_spotpoint106239_tooltip"><![CDATA[R-627]]></data>
-  <data name="fr_pano106245_title"><![CDATA[Espace vital]]></data>
-  <data name="fr_spotpoint106254_tooltip"><![CDATA[Cusine]]></data>
-  <data name="fr_pano106247_title"><![CDATA[R-619]]></data>
-  <data name="fr_spotpoint106251_tooltip"><![CDATA[Salle de bains]]></data>
-  <data name="fr_spotpoint106253_tooltip"><![CDATA[Espace vital]]></data>
-  <data name="fr_spotpoint106255_tooltip"><![CDATA[Corridor R-619]]></data>
-  <data name="fr_pano106248_title"><![CDATA[Salle de bains]]></data>
-  <data name="fr_spotpoint106252_tooltip"><![CDATA[Cuisine]]></data>
-
-
-	<data name="fr_spotmap107412_tooltip"><![CDATA[]]></data>
-	<data name="fr_spotmap107413_tooltip"><![CDATA[]]></data>
-	<data name="fr_spotmap107414_tooltip"><![CDATA[]]></data>
-	<data name="fr_spotmap107415_tooltip"><![CDATA[]]></data>
-	<data name="fr_spotmap107416_tooltip"><![CDATA[]]></data>
-	<data name="fr_spotmap107417_tooltip"><![CDATA[]]></data>
+	<data name="fr_spotmap107626_tooltip"><![CDATA[]]></data>
+	<data name="fr_spotmap107627_tooltip"><![CDATA[]]></data>
+	<data name="fr_spotmap107628_tooltip"><![CDATA[]]></data>
+	<data name="fr_spotmap107629_tooltip"><![CDATA[]]></data>
+	<data name="fr_spotmap107630_tooltip"><![CDATA[]]></data>
+	<data name="fr_spotmap107631_tooltip"><![CDATA[]]></data>
 
 
 
@@ -168,7 +173,7 @@
 	<data name="fr_spotmap105987_tooltip"><![CDATA[]]></data>
 	<data name="fr_spotmap105988_tooltip"><![CDATA[]]></data>
 	<data name="fr_spotmap105989_tooltip"><![CDATA[]]></data>
-	<data name="fr_panogroup105941_floor_title"><![CDATA[L'étage 1]]></data>
+	<data name="fr_panogroup105941_floor_title"><![CDATA[Rez-de-chaussée ]]></data>
 	<data name="fr_spotmap106037_tooltip"><![CDATA[]]></data>
 	<data name="fr_spotmap106038_tooltip"><![CDATA[]]></data>
 	<data name="fr_spotmap106039_tooltip"><![CDATA[]]></data>
@@ -178,7 +183,7 @@
 	<data name="fr_spotmap106146_tooltip"><![CDATA[]]></data>
 	<data name="fr_spotmap106147_tooltip"><![CDATA[]]></data>
 	<data name="fr_spotmap106148_tooltip"><![CDATA[]]></data>
-	<data name="fr_panogroup106192_floor_title"><![CDATA[L'étage 6]]></data>
+	<data name="fr_panogroup106192_floor_title"><![CDATA[6e niveau]]></data>
 	<data name="fr_spotmap106227_tooltip"><![CDATA[]]></data>
 	<data name="fr_spotmap106244_tooltip"><![CDATA[Appartement de deux chambres]]></data>
 	<data name="fr_spotmap106257_tooltip"><![CDATA[Studio]]></data>
@@ -235,6 +240,7 @@
 
 
 
+  <data name="fr_pano105937_description"><![CDATA[La résidence est située à  5 minutes à pied du Collège et du métro Crémazie, ainsi que des services tels que les épiceries, banques, pharmacies, etc.]]></data>
 
 
 
@@ -271,11 +277,6 @@
 
 
 
-
-
-
-
-
   <data name="fr_pano106228_description"><![CDATA[Unités entièrement meublées incluant le câble, le téléphone et l’Internet]]></data>
 
 
@@ -283,6 +284,13 @@
 
 
   <data name="fr_pano106247_description"><![CDATA[Unités entièrement meublées incluant le câble, le téléphone et l’Internet]]></data>
+
+
+
+
+
+
+
 
 
 
